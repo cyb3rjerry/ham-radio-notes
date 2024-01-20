@@ -22,9 +22,14 @@ The notes I took while taking my ham radio permit class
 is the Canadian reference for which bands are available for which license.
 
 Ham radio logo is the following:
+
 [![Ham radio logo](https://upload.wikimedia.org/wikipedia/commons/2/2c/International_amateur_radio_symbol.svg)](https://en.wikipedia.org/wiki/Amateur_radio)
 
+Canadian Band plan:
+
 [![Canadian band plan](https://www.rac.ca/mivahih/2023/06/IBC_July2023_Bandplan_0%E2%80%9330-796x1024.jpg)](https://www.rac.ca/rac-0-30-mhz-band-plan/)
+
+Canadian Radio Frequency Allocation table:
 
 [![Canadian Radio Frequency Allocation table](http://canadianspectrumpolicyresearch.org/wp-content/uploads/2016/08/2014_Canadian_Radio_Spectrum_Chart.jpg)](https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/learn-more/key-documents/consultations/canadian-table-frequency-allocations-sf10759)
 
