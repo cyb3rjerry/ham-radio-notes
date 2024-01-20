@@ -30,22 +30,44 @@ Ham radio logo is the following:
 
 ### Electricity
 
+TODO
+
 ## Measuring electricity and current
+
+TODO
 
 ## Capacitors, inductors and transformers
 
+TODO
+
 ## Rules and operation
+
+TODO
 
 ## From vacuum tubes to semiconductors
 
+TODO
+
 ## Power supplies, amps and oscillators
+
+TODO
 
 ## A world of telecommunications and emitters
 
+TODO
+
 ## Receivers and digital transmissions
+
+TODO
 
 ## Powerlines and antennas
 
+TODO
+
 ## Antennas part 2 and interference
 
+TODO
+
 ## Waves, an opening to the world and measuring equipment
+
+TODO
