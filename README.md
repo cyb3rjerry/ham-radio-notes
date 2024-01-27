@@ -102,7 +102,152 @@ Read chapter 3 and 4 of the electricity book.
 
 ## Measuring electricity and current
 
-TODO
+### Measuring electricity
+
+Here is the unit conversion chart:
+
+[![Unit conversion](http://sciencepedagogics.pbworks.com/f/1311886367/PREFIXES.PNG)](http://sciencepedagogics.pbworks.com/w/page/43781129/Metric%20Unit%20Prefixes)
+
+Here are the formulas for calculating power, tension and current:
+
+[![Ohms Law Chart](https://www.electrical101.com/wpimages/ohms-law-peir-symbol.webp)](https://www.electrical101.com/ohms-law.html)
+
+More specifically, here are the formulas where **P** is power, **E** is tension,
+**R** is resistance and **I** is current:
+
+1. I^2 * R = P
+2. E * I = P
+3. E^2 / R = P
+4. sqrt(P/R) = I
+5. P / E = I
+6. E / R = I
+7. squart(P * R) = E
+8. I * R = E
+9. P / I = E
+10. E^2/P = R
+11. P / I^2 = R
+12. E / I = R
+
+- 5.1.1: A dial indicating 3,535MHz is equal to 3535 kHz.
+- 5.1.2: If we measure a current of 3000 mA, it's equal to 3A.
+- 5.1.3: If we measure a tension of 3500 mV, it's equal to 3.5V.
+- 5.1.4: A condensator of 1000000 pF is equal to 1 uF.
+- 5.1.5: A 500mW transmitter is equal to 0.5W.
+- 5.1.6: a kOhm is equal to 1000 ohms.
+- 5.1.7: A tension of 6,6 kVolts is equal to 6600 V.
+- 5.1.8: A current of a quarter Amp can be written as 250 mA.
+- 5.1.9: A tension of 2 volts is equal to 2000 mV.
+- 5.1.10: a MHz is equal to 1000000 Hz.
+- 5.1.11: An inductance of 10000 uH can be written as 10 mH.
+- 5.2.9: Tension drop is the difference between the tension at the beginning
+and the end of the circuit
+- 5.3.1: Power is the word used to express the speed at which energy is
+used
+- 5.3.2: Out of a 40W, 80W and 100W lightbulb, the 100W lightbulb will be the
+- 5.3.3: Watts are used to express the power of a circuit
+- 5.3.4: When a circuit is opened,
+one that consumes the most
+- 5.3.5: When a circuit requires too much current,
+it'll short circuit
+- 5.3.6: Watts are used to express the power of a circuit
+- 5.3.7: To know the power, we multiply the tension by the current
+- 5.3.8: To know the power, we multiply the tension by the current
+- 5.3.9: In a circuit, when a resistance becomes too hot it means the current
+has too much power
+- 5.3.10: High resistance tend to have a large body and a large wire. These
+characteristics allow them to dissipate heat faster.
+- 5.3.11: Of a 5W, 2.5W, a 10W and a 20W, the resistance that can dissipate
+the most heat is the 20W one
+- 5.4.1: A current of 2 amps goes through a 50 ohms resistance, which voltage appears
+appears at the leads?
+- 5.4.2: The current is equal to voltage divided by resistance
+- 5.4.3: Resistance is equal to voltage divided by current
+- 5.4.4: Voltage is equal to current multiplied by resistance.
+- 5.4.5: If a 12V battery has a current of 0.25A in it's circuit, what is the
+resistance of the circuit?
+- 5.4.6: Calculate the resistance required to obtain a drop of 100V with
+the current is 0.8mA
+- 5.4.7: Which tension is required to force a current of 4.4A through a resistance
+of 50 ohms?
+- 5.4.8: A lamp has a resistance of 30 ohms with a current of 6V, how many amps
+is circulating in the lamp?
+- 5.4.9: Which tension is necessary to force a current of 200 mA though a lamp
+that has a resistance of 25 ohms?
+- 5.4.10: Voltage is equal to current multiplied by resistance.
+- 5.4.11: If a battery has 3V and is pushing a 300mA current, what is the resistance
+in the circuit?
+- 5.5.1: The current given by a circuit is equal to the sum of the current
+circulating in all branches of the circuit.
+- 5.5.2: The sum of the current circulating in each resistor is equal to the
+total current drained in the battery.
+- 5.5.4: If two resistors have a value of 1000 ohms, the total current is
+80mA.
+- 5.5.10: If two resistance are placed in parallel and the resistance
+of resistor A has a current twice as high as resistor B, this means
+resistor A is twice as low as resistor B.
+- 5.6.2: How many Watts will be used by a lamp of 12 volts and 0.2A?
+- 5.6.3: What is the power of a transmitter that consumes 500mA under 12V?
+- 5.6.4: The max power of 2 resistors of 500ohms and 1 watt can dissipate
+2 watts
+- 5.6.5: The max power of 2 resistors of 500ohms and 1 watt can dissipate
+2 watts
+- 5.6.6: If we double the tension applied between two resistors, the current
+will quadruple
+- 5.6.7: The total power is equal to the sum of the power of each resistor
+no matter the configuration
+- 5.6.8: A 12V lamp has a power of 30W. The current consumed is 30/12.
+- 5.6.9: What is the total power of 2 10ohms resistors connect in series
+to a 10V battery?
+- 5.8.1: We can say that by doubling the power, we gain 3dB
+- 5.8.2: We can decrease the power of a transmitter by 3dB by dividing
+it's power by 2
+- 5.8.3: We can increase a transmitters power by 6dB by multiplying
+it's power by 4
+- 5.8.5: an emitter of 500W has a signal strength of S9 + 20db.
+If the power is lowered by 150W, it's strength will be S9 + 10dB.
+- 5.8.6: Decibels (dB) is a unit to express the ratio between two values.
+- 5.8.7: If a transmitter goes from 1W to 2W, it's a gain of 3dB
+- 5.8.8: The power of an emitter that rises from 5W to 50W thanks to
+a linear amp. The gain is 10dB.
+- 5.8.9: To increase the power of your 2W emitter, you add a 9dB amp. The
+new power is 16W as 9dB is equal to 8W.
+- 5.8.11: A HAM radio brings 100W signal gives it a signal strength
+of S9 + 30dB. To reduce your signal to S9, you need to reduce
+your power by 100mW. A 30dB reduction is equal to 1000.
+
+### Current
+
+#### DC Current
+
+- 3.16.1: Wet cell accumulators each have 2 volts cells. That's why
+a car battery has 6 cells to get roughly 12 volts.
+- 3.16.2: The current given by battery has a north and south pole
+- 3.16.3: Batteries that can be recharged are called accumulators
+or secondary battery
+- 3.16.4: Lithium-Ion batteries are a source of electro-motive force
+- 3.16.7: A primary battery is a battery that can't be recharged. It's
+typicaly carbon-zinc batteries
+- 3.16.5: A big difference between a carbon-zin battery and a lithium-ion
+one is that only the lithium-ion battery can be recharged
+- 3.16.6: A tension drop is provoked by the resistance of a circuit
+- 3.16.8: If we exceed the capacity of a battery, it's charge wont last
+as long
+- 3.16.9: To rise the current of a circuit, batteries can be placed in parallel
+- 3.16.10: To rise the tension, you can add batteries in series
+- 3.16.11: A nickel-cadmium battery should never be shorted
+
+#### AC Current
+
+- 3.17.8: The current given by Hydro-Quebec is generally 120V and 240V
+- 5.7.1: The frequency of a current is the number of times the current
+alternates from positive to negative in a second
+- 5.7.2: The frequency at which humans can hear is between 20Hz and 20kHz
+- 5.7.3: The frequency at which humans can hear is between 20Hz and 20kHz
+- 5.7.4: In a frequency of 7,125MHz the electricity tends to scillate
+at 7,125 million times per second
+- 5.7.8: The current generated by Hydro-Quebec is 60Hz
+- 5.7.9: For example, a frequency of 100Hz means a cycle is 0.01 second
+- 5.7.10: A current that has a total cycle of 0.1s is 10Hz
 
 ## Capacitors, inductors and transformers
 
