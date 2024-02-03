@@ -251,6 +251,10 @@ at 7,125 million times per second
 
 ## Capacitors, inductors and transformers
 
+Resonance frequency formula: `f = 1 / (2 * pi * sqrt(L * C))`
+
+Impedance forumla: `Z = sqrt(R^2 + (Xl - Xc)^2)`
+
 ### Capacitors/condensators
 
 Series and parallel formulas:
