@@ -392,23 +392,23 @@ Superior license:
 - Can build emitters & repeaters
 - Can command remote fixed stations
 
-| Prefixes | Province |
-| --- | --- |
-| VE1 VA1 | Nova Scotia |
-| VE2 VA2 | Quebec |
-| VE3 VA3 | Ontario |
-| VE4 VA4 | Manitoba |
-| VE5 VA5 | Saskatchewan |
-| VE6 VA6 | Alberta |
-| VE7 VA7 | British Columbia |
-| VE8 | Northwest Territories |
-| VE9 | New Brunswick |
-| VE0 | International waters |
-| VO1 | Newfoundland |
-| VO2 | Labrador |
-| VY1 | Yukon |
-| VY2 | Prince Edward Island |
-| VY0 | Nunavut |
+| Prefixes | Province              |
+| ---      | ---                   |
+| VE1 VA1  | Nova Scotia           |
+| VE2 VA2  | Quebec                |
+| VE3 VA3  | Ontario               |
+| VE4 VA4  | Manitoba              |
+| VE5 VA5  | Saskatchewan          |
+| VE6 VA6  | Alberta               |
+| VE7 VA7  | British Columbia      |
+| VE8      | Northwest Territories |
+| VE9      | New Brunswick         |
+| VE0      | International waters  |
+| VO1      | Newfoundland          |
+| VO2      | Labrador              |
+| VY1      | Yukon                 |
+| VY2      | Prince Edward Island  |
+| VY0      | Nunavut               |
 
 Number of questions in the exam:
 
@@ -419,6 +419,84 @@ Number of questions in the exam:
 - 13 questions about the elements and theory of electronic
 - 8 questions about wave propagation
 - 6 questions about interference and scrambling
+
+Here are the bands:
+
+| Wave length meters | Band MHz | Frequency MHz | Width of band kHz |
+| ---  | ---    | ---    | ---   |
+| 160  | 1.8    | 2.0    | 6     |
+| 80   | 3.5    | 4.0    | 6     |
+| 40   | 7.0    | 7.3    | 6     |
+| 30   | 10.1   | 10.15  | 1     |
+| 20   | 14.0   | 14.35  | 6     |
+| 17   | 18.068 | 18.168 | 6     |
+| 15   | 21.0   | 21.45  | 6     |
+| 12   | 24.89  | 24.99  | 6     |
+| 10   | 28.0   | 29.7   | 20    |
+| 6    | 50.0   | 54.0   | 30    |
+| 2    | 144.0  | 148.0  | 30    |
+| 1.25 | 220.0  | 225.0  | 100   |
+| 70cm | 430    | 450    | 12MHz |
+| 33cm | 902    | 928    | 12MHz |
+
+Frequencies below 30MHz tend to be LSB, above 30MHz tends to be USB.
+30MHz is a non-phone band.
+
+Phonetic alphabet:
+
+| Letter | Phonetic Alphabet |
+|--------|-------------------|
+| A      | Alpha             |
+| B      | Bravo             |
+| C      | Charlie           |
+| D      | Delta             |
+| E      | Echo              |
+| F      | Foxtrot           |
+| G      | Golf              |
+| H      | Hotel             |
+| I      | India             |
+| J      | Juliet            |
+| K      | Kilo              |
+| L      | Lima              |
+| M      | Mike              |
+| N      | November          |
+| O      | Oscar             |
+| P      | Papa              |
+| Q      | Quebec            |
+| R      | Romeo             |
+| S      | Sierra            |
+| T      | Tango             |
+| U      | Uniform           |
+| V      | Victor            |
+| W      | Whiskey           |
+| X      | X-ray             |
+| Y      | Yankee            |
+| Z      | Zulu              |
+
+Q Codes:
+
+| Q-Code | Meaning                                      |
+|--------|----------------------------------------------|
+| QRA    | What is the name of your station?            |
+| QRZ    | Who is calling me?                           |
+| QRG    | Will you tell me my exact frequency?         |
+| QRL    | Are you busy?                                |
+| QRM    | Is my transmission being interfered with?    |
+| QRN    | Are you troubled by static?                  |
+| QRO    | Shall I increase power?                      |
+| QRP    | Shall I decrease power?                      |
+| QRQ    | Shall I send faster?                         |
+| QRS    | Shall I send more slowly?                    |
+| QRT    | Shall I stop sending?                        |
+| QRV    | Are you ready?                               |
+| QRX    | When will you call me again?                 |
+| QRZ    | You are being called by callsign.            |
+| QSB    | Is my signal fading?                         |
+| QSL    | Can you acknowledge receipt?                 |
+| QSO    | Can you communicate with callsign direct?    |
+| QSY    | Shall I change frequency?                    |
+| QTH    | What is your location?                       |
+| QSY    | I am changing frequency to frequency.        |
 
 ## From vacuum tubes to semiconductors
 
