@@ -360,7 +360,65 @@ some energy is lost as heat in the metal plates.
 
 ## Rules and operation
 
-TODO
+Membership levels go as follows: Individual member -> Club -> RAQI -> RAC -> ITU
+
+Here are the high levels bands:
+
+- HF: 1.8 to 30MHz
+- VHF: 50 to 54Mhz and 144 to 148MHz
+- UHF: 430 to 450MHz
+
+Here are the most common modes:
+
+- CW: Continuous wave
+- SSB: Single side band
+- AM: Amplitude modulation
+- FM: Frequency modulation
+- Digital: PSK31, RTTY, SSTV, JT8, JT65, FT8, FT4, etc.
+
+Basic license gives you access to:
+
+- Radio bands above 30MHz
+- 250W of power on emmission
+- You can install and use your own reception equipment (except repeaters)
+
+Basic license with distinction gives you access to:
+
+- All ham bands
+
+Superior license:
+
+- Can emmit up to 1000W
+- Can build emitters & repeaters
+- Can command remote fixed stations
+
+| Prefixes | Province |
+| --- | --- |
+| VE1 VA1 | Nova Scotia |
+| VE2 VA2 | Quebec |
+| VE3 VA3 | Ontario |
+| VE4 VA4 | Manitoba |
+| VE5 VA5 | Saskatchewan |
+| VE6 VA6 | Alberta |
+| VE7 VA7 | British Columbia |
+| VE8 | Northwest Territories |
+| VE9 | New Brunswick |
+| VE0 | International waters |
+| VO1 | Newfoundland |
+| VO2 | Labrador |
+| VY1 | Yukon |
+| VY2 | Prince Edward Island |
+| VY0 | Nunavut |
+
+Number of questions in the exam:
+
+- 25 questions about rules and politics
+- 9 questions about exploitation and procedures
+- 21 questions about the station assembly
+- 6 questions about the components
+- 13 questions about the elements and theory of electronic
+- 8 questions about wave propagation
+- 6 questions about interference and scrambling
 
 ## From vacuum tubes to semiconductors
 
