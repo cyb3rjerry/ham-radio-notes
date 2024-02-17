@@ -500,6 +500,8 @@ Q Codes:
 
 ## From vacuum tubes to semiconductors
 
+### Diodes
+
 - 4.2.1: The Zener diode is used to regulate tension.
 - 4.2.2: Diode can be used to rectify signals. They can also be used to
 demodulate radio frequency signals.
@@ -514,6 +516,9 @@ remain the same at it's output.
 capacitive diodes (varicap), light emitting diodes (LED), Zener diodes,
 Schottky diodes, tunnel diodes, triacs, thyristors, etc.
 - 4.2.9: The Zener diode is used to regulate tension.
+
+### Vacuum tubes
+
 - 4.2.10: For a diode to conduct electricity, the anode must be at a direct polarity
 - 4.5.1: In certain circuits, such as linear amplifiers, vacuum tubes are
 prefered as they support a higher power.
