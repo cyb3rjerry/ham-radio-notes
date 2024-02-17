@@ -500,7 +500,37 @@ Q Codes:
 
 ## From vacuum tubes to semiconductors
 
-TODO
+- 4.2.1: The Zener diode is used to regulate tension.
+- 4.2.2: Diode can be used to rectify signals. They can also be used to
+demodulate radio frequency signals.
+- 4.2.3: The basis of regulation is the following: When the Zener diode is
+in use, you can either lower or raise the tension and yet the tension will
+remain the same at it's output.
+- 4.2.4: Rectifying is the process of converting an AC signal into a DC signals
+- 4.2.5: The electrodes of a diode are called anodes and cathodes.
+- 4.2.6: If we apply an AC signal to a diode we get a pulsating DC signal.
+- 4.2.7: In a diode,  electrons move from the cathode to the anode.
+- 4.2.8: There's a few types of diodes with different characteristics:
+capacitive diodes (varicap), light emitting diodes (LED), Zener diodes,
+Schottky diodes, tunnel diodes, triacs, thyristors, etc.
+- 4.2.9: The Zener diode is used to regulate tension.
+- 4.2.10: For a diode to conduct electricity, the anode must be at a direct polarity
+- 4.5.1: In certain circuits, such as linear amplifiers, vacuum tubes are
+prefered as they support a higher power.
+- 4.5.2: Vacuum tubes can amplify a signal thats weak but requires
+a lot of voltage.
+- 4.5.3: A vacuum triode and a transistor have something in ommon: they
+can be amplify a signal
+- 4.5.4: Anodes only work when it has the highest positive potential because
+the electrons are attracted to it. This is however only if the anode is
+attached to the positive pole of the battery.
+- 4.5.6: The anode the furthest away from the filament is they one that
+is used to heat the cathode.
+- 4.5.7: Cathodes emit electrons (typically in tungsten)
+- 4.5.8: A vacuum tube works when electrons are emitted from the cathode as long
+as they're heated and the anode is positively charged.
+- 4.5.9: Triodes contain 3 components and a filament. The cathode, the mesh and the
+anode (plate).
 
 ## Power supplies, amps and oscillators
 
