@@ -537,6 +537,36 @@ as they're heated and the anode is positively charged.
 - 4.5.9: Triodes contain 3 components and a filament. The cathode, the mesh and the
 anode (plate).
 
+### Transistors and integrated circuits
+
+- 4.3.1: Transistors are used to amplify weak signals at low currents
+- 4.3.3: A bipolar transistor has 3 components: the emitter, the base and the collector
+- 4.3.4: If we apply a weak signal at the entry of a transistor, a greater
+signal is generated at the output. This is called amplification
+- 4.3.5: A bipolar transistor has 3 components: the emitter, the base and the collector
+- 4.3.6: A semi-conductor describe as a "multipurpose NPN component for audio
+frequencies" is a bipolar transistor.
+- 4.3.7: There's two types of transistors: NPN and PNP
+- 4.3.8: The excess heat (thermal runaway) can destroy a transistor
+- 4.3.9: The base plays similar to the mesh in a vacuum triode
+- 4.3.10: The collector plays a role similar to the anode in a vacuum triode
+- 4.3.11: The emitter plays a role similar to the cathode in a vacuum triode
+- 4.4.1: Field effect transistors have two types: P channel and N channel
+- 4.4.2: Field effect transistors have three components: the source, the gate and
+the drain
+- 4.4.3: The gate controls the conductance of a channel
+- 4.4.4: The source is where the current comes in
+- 4.4.5: The drain is the output of the FET
+- 4.4.6: A field effect transistor is a semi-conductor that unites the effects
+of both the triode and the transistor
+- 4.4.7: The two regions in the FET are named gates because they control
+the source and the drain
+- 4.4.8: To diminish the movement of electrons in a FET, you can
+reverse the polarity
+- 4.4.9: The source corresponds to the emitter in a bipolar transistor
+- 4.4.10: The drain corresponds to the collector of a bipolar transistor
+- 4.4.11: The drain and the source have similar characteristics
+
 ## Power supplies, amps and oscillators
 
 TODO
