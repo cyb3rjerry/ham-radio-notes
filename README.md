@@ -569,7 +569,61 @@ reverse the polarity
 
 ## Power supplies, amps and oscillators
 
-TODO
+### Power supplies
+
+- 3.8.1: A power supply has a component called a transformer that
+lets it provide the correct tension. It's connected to an external
+source called "input".
+- 3.8.2: A power supply has a component called a transformer that
+- 3.8.3: A rectifier is then required between the transformer and the
+filter.
+- 3.8.4: At the output of the rectifier, we then need a filter formed
+of a ferrous core to reduce leak resistance
+- 3.8.5: To get a stabilised current, we need a regulator
+- 3.8.6: The output of the power cannot vary between it's empty and full
+state
+lets it provide the correct tension. It's connected to an external
+source called "input".
+- 3.17.1: For example, if an emitter works in a car but not at home, it's
+important to check the power supply
+- 3.17.5: For example, when a power supply delivers a 5A current and
+a 12V tension, it's nominal power must be higher than 60W
+- 3.17.2: HAM equipment tends to run on 12VDC which is why we need
+power supplies that convert 120VAC to 12VDC.
+- 3.17.3: An HF emitter will also require roughly 100W of power
+which the power supply will need to provide.
+- 3.17.4: When a HAM radio has no regulator, it's power supply will
+tend to produce a "hum" sound.
+- 3.17.6: A diode can be used to convert AC into DC by only letting
+the current flow from the cathode to the anode
+- 3.17.7: Diodes can be used as rectifiers to convert AC into DC
+- 3.17.11: It's typically in the power supply at low frequencies that
+we hear a loud hum
+- 6.6.4: For a power supply to be used at it's max power, the impedance
+of the load must be the same as the impedance of the source
+- 6.6.5: For a power supply to be used at it's max power, the impedance
+of the load must be the same as the impedance of the source
+
+### Amplifiers
+
+- 4.1.1: Amplifiers are a circuit used to increase the power of a signal
+- 4.1.2: When the signal of an amp becomes non-linear, we say that
+it creates distortion
+- 4.1.3: To increase a weak radio signal, we want to use an RF amp
+- 4.1.4: To increase a very weak signal coming from a microphone, we
+need to use an audio amp
+- 4.1.5: Typically an audio amp covers signals from 300 to 3000 Hz
+- 4.1.6: Amplification cannot apply to the word resistance
+- 4.1.7:The change of a signal through an amplifier is called gain
+- 4.1.8:The change of a signal through an amplifier is called gain
+- 4.1.9: A device with a marking of "Gain = 10Db" is an amp
+- 4.1.10: Amps can increase the tension, the current or the power of a signal
+- 4.1.11: Where there's loss of signal, we can determine that the amp is broken
+
+### Oscillators
+
+The resonance formula is `XL = 2 * pi * f * L` and `XC = 1 / (2 * pi * f * C)`.
+If both values are equal, the circuit is in resonance.
 
 ## A world of telecommunications and emitters
 
