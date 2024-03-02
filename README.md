@@ -627,7 +627,111 @@ If both values are equal, the circuit is in resonance.
 
 ## A world of telecommunications and emitters
 
-TODO
+### A world of telecom
+
+- 5.7.6: When we increase the frequency, the length of a signal
+becomes shorter
+- 5.7.7: When we increase the length of a signal, the signals frequency
+reduces
+
+### Emitters
+
+#### CW
+
+- 3.4.1: In a CW emitter, the output of the master oscillator is
+connected to the attack stage which results in a intermediary circuit
+or buffer stage
+- 3.4.2: In a typical CW signal, the power source is the main source
+of continuous current
+- 3.4.3: The attack/buffer stage which is between the master-oscillator
+and the amplifier
+- 3.4.4: For a CW emitter, it's the telegraph that manipulates the signal
+- 3.4.5: In a CW emitter, the amplifier is between the attack stage
+and the antenna
+- 3.4.6: The task of the amplifier is to feed radio energy to the antenna
+
+#### AM
+
+- 3.11.4: AM modifies the amplitude of a radiofrequency so it can
+transmit information
+- 3.11.5: In this kind of emission, the instant amplitude of the RF signal
+changes at the same time as the modulation of the signal
+- 3.12.3: The power of the peak of a signal's modulation
+describe the average power given at the connector of an antenna's
+amplifier during a complete cycle
+
+#### SSB
+
+- 3.6.2: The output of the equalized modulator is connected to the filter
+- 3.6.3: An SSB filter is between the equalized modulator and the mixer
+- 3.6.4: The mic is typically connected to an audio amp
+- 3.6.5: In an SSB transmitter, the output of the mic's amp
+is connected to the balanced modulator
+- 3.6.6: In an SSB transmitter, the output of the VFO is connected to the mixer
+- 3.6.7: In an SSB transmitter, the output of the VFO is connected to the mixer
+- 3.6.8: Situated between the mixer and the antenna, the linear amp
+has the role of amplifying the signal linearly to the antenna
+- 3.6.9: The output of a linear amp if connected directly to the antenna
+- 3.10.1: From narrowest to widest, the list of modulations would go:
+CW, RTTY, AM, SSB and FM
+- 3.11.3: Once the signal is built, it's the Variable Frequency Oscillator
+(VFO) that determines at which frequency the signal will be emitted by the
+antenna
+- 3.11.9: The RF oscillator must be mechanically and electrically
+stable to not provoke any frequency drift
+- 3.12.1: When the voice gain goes past 100%, it can introduce
+distortion
+- 3.12.2: When the voice gain goes past 100%, it can introduce
+distortion
+- 3.12.4: The bandwidth of SSB in the HAM band tends to be roughly
+2 to 3kHz
+- 3.12.5: An SSB filter is between the equalized modulator and the mixer
+- 3.12.6: The carrier signal doesn't contain any data. We can therefore
+remove it when decoding SSB
+- 3.12.8: The gain of a mic in an SSB transmission must be adjusted so the ALC
+indicator moves slightly at peak modulation
+- 3.12.9: The role of a balanced modulator is to delete the carrier
+and two let two sidebands pass through
+- 3.12.11: In an SSB transmission, the Automatic Level Control (ALC)
+controls the peak of the input signal to avoid delivering an attack
+signal that's too strong for the power amplifier
+- 3.14.1: A mic works by moving a coil through a magnetic field. This
+is why one could use a speaker as a microphone for example
+- 3.14.2: To transmit voice, the microphone needs to be plugged
+to the transmitter
+- 3.14.3: To transmit voice, the microphone needs to be plugged
+to the transmitter
+- 3.14.5: A circuit which activates the emitter automatically when the operator speaks
+is called "VOX" (Voice Operated Control)
+- 3.14.6: In SSB, a fine tuned speech processor helps make the signal legible
+- 3.14.7: When an SSB is 100% modulated for voice, the speech processor
+doesn't add to the peak envelope power
+
+#### FM
+
+- 3.2.1: The mic is connected to the audio amp to amplify the voice signal
+- 3.2.2: The mic is connected to the audio amp to amplify the voice signal
+- 3.2.3: The modulator is between the audio amp and the oscillator
+- 3.2.4: The oscillator is between the modulator and the frequency multiplier
+- 3.2.5: The frequency multipler is between the oscillator and the power amp
+- 3.2.6: The power amp has the task of giving the power to the antenna
+- 3.2.7: The power amp has the task of giving the power to the antenna
+- 3.13.1: When the mic's gain or the frequency deviation settings are too high,
+close signals can be distorted
+- 3.13.2: If you scream in a mic, the FM signal with a deviation that's too wide
+you risk causing interference
+- 3.13.3: If someone reports overdeviation of your signal, simply add distance
+between you and the mic
+- 3.13.4: If your mic isn't working, your transmitter will produce a carrier signal
+that doesn't have modulation
+- 3.13.5: For FM, the ideal bands are VHF and UHF. The produce the best signal
+with the lowest loss
+- 3.13.6: Typically, the bandwidth is roughly 10 to 20kHz +/- 5kHz
+- 3.13.7: Overdeviation higher than the desired 10 to 20kHz produce off-channel
+emissions
+- 3.13.9: That's why FM isn't used under 29.5MHz. It's because the bandwidth
+would go beyond the allowed bandwidth of 6kHz
+- 3.13.10: A probable cause for distortion is often due to overdeviation
 
 ## Receivers and digital transmissions
 
