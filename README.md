@@ -737,13 +737,336 @@ would go beyond the allowed bandwidth of 6kHz
 
 TODO
 
-## Powerlines and antennas
+## Transmission lines and antennas
 
-TODO
+### Transmission lines
 
-## Antennas part 2 and interference
+- 6.1.1: A transmission line is a conductor that connects the receptor and the emittor
+- 6.1.2: The characteristic impedance of a transmission line is determined by the
+the the physical dimensions and relative position of the conductors
+- 6.1.3: The characteristic impedance does not rely on the length of the cable
+- 6.1.4: The characteristic impedance of a coax cable is determined by the distance
+center-center and the diameter of the conductors
+- 6.1.5: As there is no RF emission outside the coax cable, it can be near metalic
+surfaces or be buried in the ground
+- 6.1.6: The characteristic impedance of a transmission line is equal to the
+pure resistance which absorbs all transmitted power
+- 6.1.7: A transmission line has a different characteristic impedance than
+regular cable. This difference is mainly the propagation delay
+- 6.1.8: The characteristic impedance of a transmission line does not depend
+on the velocity of the energy on the line
+- 6.1.9: If a transmission line ends on an impedance that's different from the
+lines impedance, we will record a random impedance that depends on the length
+- 6.1.10: The characteristic impedance of a coax cable is determined by the distance
+center-center and the diameter of the conductors
+- 6.2.1: The coax cable is the one that's most used by HAMs. It's made of a
+central cable surrounded by an isolator and finally a conductive mesh
+- 6.2.2: An open line is made of two parallel conductors side by side separated by
+an insulator
+- 6.2.3: An open line of 600 ohm "en echelle" made of two conductors separated
+at a uniform distance separated by small isolators
+- 6.2.6: An asymetrical line is a line that's connected to a ground
+- 6.2.8: The coax cable is the one that's most used by HAMs. It's made of a
+central cable surrounded by an isolator and finally a conductive mesh
+- 6.2.9: An open line is made of two parallel conductors side by side separated by
+an insulator
+- 6.2.11: An open line of 600 ohm "en echelle" made of two conductors separated
+at a uniform distance separated by small isolators
+- 6.3.1: A coax cable is very resistant to the weather and fits with most radios
+- 6.3.2: As there is no RF emission outside the coax cable, it can be near metalic
+surfaces or be buried in the ground
+- 6.3.4: The typical connector is a PL-259 and SO-259
+- 6.3.5: Cables used to connect portable radios tend to be SMA connectors
+- 6.3.6: It's preferable to use a N type connector when in UHF
+- 6.3.7: For a 6 meter yagi antenna in a 60m tower, you should use a rg-213 cable
+- 6.3.8: Whatever connector you use, you should make sure to regularly clean then,
+tighten them and make sure the connections are well soldered to make sure the connection
+resistance is as low as possible
+- 6.3.9: As there is no RF emission outside the coax cable, it can be near metalic
+surfaces or be buried in the ground
+- 6.3.10: As there is no RF emission outside the coax cable, it can be near metalic
+surfaces or be buried in the ground
+- 6.3.11: This line is typically represented as ribons and is used to power
+a tv for example. It's impedance is roughly 300 ohms
+- 6.4.1: To reduce RF loss, it's important to use a UHF cable
+- 6.4.2: A transmition line made of two parallel conductors support a high SWR
+(standing wave ratio) and has a lower loss than a coaxial cable
+- 6.4.3: With an emitter at 15m from the antenna and a cable RG-58 of 60 meters,
+we should reduce the length of the coax to reduce the loss
+- 6.4.4: Same goes when we increase the length of a cable
+- 6.4.5: The smaller the conductor is, the more the surface is reduced and more
+the resistance is increased. If the frequency increases, the loss increases
+- 6.4.6: Loss that happens between the emitter and the receiver
+generates a lower RF radiation
+- 6.4.7: An open line shows low HF loss et it's impedance can
+be 300 ohms, 450 ohms or 600 ohms depending on the distance of the cable
+- 6.4.8: RF loss in a transmission line is expressed as decibels
+- 6.4.9: Loss increases by 100% when extending a cable from 20m to 40m
+- 6.4.10: The smaller the conductor is, the more the surface is reduced and more
+the resistance is increased. If the frequency increases, the loss increases
+- 6.5.5: A perfect impedance match results in no signal reflection. This is
+defined as a perfect SWR
+- 6.5.6: If the transmition line gets too hot when emitting, this means the SWR
+is too high or that the loss is too high
+- 6.5.7: If the characteristic impedance of a transmission line is different
+from the impedance of the antenna, you get a standing wave
+- 6.5.10: The SWR can also be measured with the high impedance ratio in relation
+to the lowest impedance
+- 6.5.11: The transmition line that works best at high SWR is the 600 ohms cable
 
-TODO
+### Antennas
+
+- 3.9.1: The support of a directional antenna is called a boom. It's main
+purpose is mainly mechanical
+- 3.9.2: The reflector element is placed at quarter-wave length from the
+driven element and it slightly longer than the driven element
+- 3.9.3: The director element is a bit shorter than the driven one.
+- 3.9.4: The powered element is not the longest nor the shortest of a 3 element yagi
+- 3.11.7: A badly designed antenna will lose power as heat
+- 3.11.8: A slight issue with the impedance of a cable will result in a
+radiation loss
+- 3.11.10: If the power source is emitting 200W and the antenna emits 100W,
+this means 100W is lost as heat
+- 3.11.11: If the power source is emitting 200W and the antenna emits 100W,
+this means 100W is lost as heat
+- 3.14.9: Theoretically, an emitter-receiver should use two antennas: one to emit,
+one to receive. In practice however, we can use a commutator to rapidly
+switch between both systems
+- 3.14.10: The antenna commutator in a emitter-receiver setup allows us
+to use one antenna for both uses
+- 6.2.4: A balun is an impedance transformer between the balance and imbalanced
+lines. It's typically used between asymetrical and symetrical systems.
+- 6.2.5: When a power source has a 50 ohm impedance, the balun must me placed
+between the antenna and the coax
+- 6.2.7: A balun is an impedance transformer between the balance and imbalanced
+lines. It's typically used between asymetrical and symetrical systems.
+- 6.2.10: To adapt a 75ohms coax to a 300ohms dipole, we need a 4/1 balun
+- 6.6.2: This helps adapting an emitter on a non-adapted system
+- 6.6.1: An antenna tuner allows an antenna to work on different bands
+- 6.6.3: For example, you can use an impedance adapter to connect a 50 ohms coax
+cable to a 17 ohm antenna
+- 6.6.6: If we want to emit a signal at max power, we need to tweak the impedance
+- 6.6.7: If we want to emit a signal at max power, we need to tweak the impedance
+- 6.6.8: If we want to emit a signal at max power, we need to tweak the impedance
+- 6.6.9: If an atenna is well adapted, the length of the transmission line
+has no effect on the impedance
+- 6.6.10: The reason why we need to adapt an antenna is to maximise the power
+- 6.6.11: To adapt a 300ohm dipole to a 50ohm coax you'll need a 6:1 balun
+output
+- 6.7.1: The electrical field is perpendicular to the ground when vertical
+and horizontal when parallel
+- 6.7.2: The electrical field is perpendicular to the ground when vertical
+and horizontal when parallel
+- 6.7.3: When the elements of a Yagi is parallell to the ground, the electrical
+polarity is horizontal
+- 6.7.4: When a half-wave antenna is errected perpendicular to the ground,
+the polarity will be vertical
+- 6.7.5: The polarity of an antenna is determined by it's orentation to the ground
+- 6.7.6: An isotrope antenna is a theoretical antenna that emits at a frequency
+in all directions equaly
+- 6.7.7: The radation graph of an isotrope antenna is a circle
+- 6.7.8: When a mobile station uses a vertical antenna that can emit VHF, the
+reception will be better with a ground vertical antenna
+- 6.7.9: A dipole antenna emits a vertical polarity when errected vertically
+- 6.7.10: If an electromagnetic wave leaves an antenna with a vertical polarity
+the ground wave arriving at the receiver will have a horizontal polarity
+- 6.7.11: Compared to a horizontal antenna, a vertical antenna receives vertically
+polarized signals better
+- 6.8.1: If you increase the length of an antenna, it's frequency lowers
+- 6.8.2: If you reduce the length of an antenna, it's resonant frequency
+will increase
+- 6.8.5: Since it's hard to make an antenna longer, you can adjust the inductance
+in series with the antenna
+- 6.8.6: If you reduce the length of an antenna, it's resonant frequency
+will increase
+- 6.8.8: A wire antenna has isolators at it's end. The distance between the isolators
+serve to determine the electrical length of the antenna
+- 6.8.9: If the resonant frequency of an antenna is too high, you can reduce
+it by making the antenna longer
+- 6.8.10: A dipole with traps allow to use a single antenna for multiple frequencies.
+These traps are made with a coil and a condensator in parallel
+- 6.9.1: A directional beam antenna receive their signal by induction or
+by the driving element
+- 6.9.3: To make a horizontally polarized dipole antenna, you simple need to
+place the driving element at a shorter distance of roughly 0.1 wavelength.
+- 6.9.4: You can also add a reflector slightly longer than the driven element.
+A major lobe will be created in the direction of the reflector
+- 6.9.6: We can say a dipole antenna has a 2.1dB gain compared to a isotropic antenna
+- 6.9.7: To calculate the power ratio emitted by an antenna, you must compare
+it to another antenna.
+- 6.9.9: In free space, a half-wave dipole shows a minimal emission at both extremities
+and a maximal emission transversally
+- 6.9.10: The gain of an antenna is measures in dBi where i means isotropic
+- 6.9.11: The front to back ratio of a directional antenna is determined by comparing
+the front lobe with the back lobe
+- 6.10.1: To calculate the length in meters of a quarter-wave antenna
+when using 30 mHz, you can use the formula: 71.5 / f (in mHz). 71.5 is
+a quarter of 286 which represents the full length of a wave
+- 6.10.4: a vertical antenna of 5/8 of a wave length has a better
+gain than a quarter wave for VHF and UHF
+- 6.10.5: If a mag-base antenna is installed on a car, radio waves will be emitted
+in all horizontal directions
+- 6.10.6: To bring back the impedance to roughly 50ohms, its often
+useful to add sloped radials that point downwards
+- 6.10.7: When changing the horizontal radials to sloped radials, the impedance
+at the power source will be increased
+- 6.10.8: A 50 ohms coax cable is better suited for a quarter-wave ground antenna
+- 6.10.9: The advantage of a vertical antenna is it's sensitive to all
+polarities
+- 6.10.10: When using a HF vertical mobile antenna we typically use a widing coil
+to cancel the capacitive reactance
+- 6.10.11: This is also because the base radation of a lot of VHF base and mobile
+antennas measure in 5/8 the wave length
+- 6.11.1: The element that's fed forms an active antenna. It's typically a dipole
+that's cut at the operating frequency
+- 6.11.2: The approximate length of a Yagi tuned for 14MHz is 10.21m
+- 6.11.3: The approximate length of a Yagi tuned for 21.1MHz is 6.4m
+- 6.11.4: The approximate length of a Yagi tuned for 28.1MHz is 5.34m
+- 6.11.5: If we increase the length of the boom and add directors, the antenna
+has a better gain but is more selective. It's bandwidth is reduced
+- 6.11.7: We often use a Yagi antenna on the 20m band as it reduces interference
+from stations located to the side of the antenna and because the gain
+is very strong in the front
+- 6.11.8: The front to back ratio of a directional antenna is determined by comparing
+the front lobe with the back lobe
+- 6.11.9: To obtain the best possible gain with a Yagi, it's important to
+pickn the right length for each elements and the distance between each
+- 6.11.10: The best spacing between the elements of a Yagi is typically 3 elements
+separated by 0,20 wavelengths
+- 6.11.11: If a single Yagi with a 10 dBi gain will have a 13 dBi gain when
+stacked with a second yagi
+- 6.12.1: To create a half-wave dipole antenna for 28.150mHz, you need a wire
+of 5.08m
+- 6.12.2: RF feedback can cause inconvenience when using long wire antennas
+- 6.12.3: A donut shape perpendicular to the antenna is the radiation pattern
+of a dipole that's parallel to the ground
+- 6.12.4: The impedance of at the power source of a free space dipole antenna is
+73 ohms and 300 ohms
+- 6.12.5: A horizontal dipole antenna at ideal height will have north/south polarity
+will emit most in the east/west direction
+- 6.12.6: A folded dipole has a much larger bandwidth than a simple dipole
+- 6.12.7: It's important to note that trap dipole antennas tend to have harmonics
+- 6.12.8: Its useful to use trap dipole antennas for multiband operation
+- 6.12.9: For a dipole to resonate at 3.75mHz, it must have a length of 38m.
+- 6.13.1: A quad cubic antenna is made of 2 or more loops in parallel
+each having one wavelength
+- 6.13.2: A delta loop antenna is similar to a quad antenna but with 3 sides
+instead of four.
+- 6.13.4: The approximate length of a 14.3MHz quad antenna is 5.35m
+- 6.13.5: The formula to get the total length of a quad antenna is also
+used for delta loop antennas. To find the length however we need to divide by 3
+since it's a triangle. For example, a 28.7MHz would be 3.32m
+- 6.13.6: A dual loop delta antenna and a 2 element quad antenna can be compared
+favoribly to a Yagi with 3 elements
+- 6.13.7: Compared to a dipole, the quad antenna has more directionality
+on both horizontal and vertical planes
+- 6.13.8: If we change If we change where the quad antenna is being driven, the polarity
+changes from horizontal to vertical
+- 6.13.9: The front to back ratio of a delta loop antenna is given by comparing
+the radiated power in the direction of the main lobe in relation to the power
+radiated in the opposite direction
+- 6.13.10: The driven element has roughly the length of a wavelength
+- 6.13.11: The global length of the driven element is a wavelength
+
+## Interference
+
+- 3.10.7: a band-stop filter can be use to attenuate SSB carriers
+- 3.11.1: Chirp is when slight changes in the emission when the carrier is
+manipulated
+- 3.11.2: It's possible to stop chirp in CW when the tension is
+very stable
+- 3.12.7: In audio, when a single or dual sideband signal is overmodulated
+distortion occurs. Having a bandwidth that's too large produces undesirable
+emissions
+- 3.13.11: A stronger FM signal will demodulate a weaker one. This is called
+capture effect
+- 5.7.11: For example, if you see a fundemental frequency of 2kHz and one of 4kHz,
+odds are the 4kHz one if an harmonic of the 2kHz one
+- 8.1.1: Intermodulation of an emitting station that's very powerful can
+overload nearby receivers
+- 8.1.2: Overload can cause local interference
+- 8.1.3: If you're causing interference to your neighbour's TV, odds
+are you're overloading it's antenna
+- 8.1.4: To prevent overload in a HF emitter, we put a high-pass filter at the input
+of the TV
+- 8.1.5: If a 20M SSD radio can't receive anything, it can be case by a 20M CW
+signal that's overloading the receiver
+- 8.1.6: AM intermodulation of a receiver by an AM emitter happens when you hear
+voice over the signal
+- 8.1.8: When two signals overlap, it'll produce interference
+- 8.1.9: When two mobile stations are close by, they might have some difficulty
+communicating to a nearby repeater. The signal from each other is so strong
+it reduces the sensitivity of the receiver
+- 8.1.10: A 14MHz HAM emission that interferes with channel 5 (76-82MHz) should use
+a high-pass filter
+- 8.1.11: We can reduce overlap by installing proper filters
+- 8.2.1: To reduce HF interference from things in your home, it's useful
+to use ferite beads on cable to reduce HF interference
+- 8.2.2: When a correctly installed and used HAM radio is interfering with
+a telephone line, it's prefered to installed a filter that blocks
+the interfering frequency
+- 8.2.5: Using a proper ground can help reducing interference
+- 8.2.6: If a HAM transmits a signal over a complete band, odds are it's spilling
+- 8.2.8: Using ferrite beads can also help reduce interference
+- 8.2.9: Reducing the length of speaker cables can help reduce RF interference
+- 8.2.10: Using ferrite beads can also help reduce interference
+- 8.2.11: Reducing the length of speaker cables can help reduce RF interference
+- 8.3.1: We can reduce the opening and closing interference with a
+condensator and a widing we insert in the key system
+- 8.3.2: A portable emitter most likely emits undesirable frequencies
+if someone tells you that your emition is affecting another frequency near
+you
+- 8.3.3: In audio, when a single or dual sideband signal is overmodulated
+distortion occurs. Having a bandwidth that's too large produces undesirable
+emissions
+- 8.3.4: You radio can emit interference if the shielding is remove from different
+parts of it
+- 8.3.5: In CW, interference is typically seen as excessive bandwidth when the
+transmitter opens and closes
+- 8.3.6: CW Claps are typically caused by too fast of an increase and decrease
+of the signal
+- 8.3.7: In CW, interference is typically seen as excessive bandwidth when the
+transmitter opens and closes
+- 8.3.8: If you're told your emitting CW interference, you should check the
+manipulation filter
+- 8.3.9: Parasitic oscillation is an undesirable signal that stems from the emitter
+- 8.3.10: A RF amplifier can produce parasitic oscillation in frequency lower or
+higher to the emission frequency
+- 8.3.11: A RF amplifier can produce parasitic oscillation in frequency lower or
+higher to the emission frequency
+- 8.4.1: If you're emitting and it's affecting you're neighbour's TV reception,
+your emitting harmonic signals
+- 8.4.2: Hdacarmonic radiation is an undesirable signal that's made at multiples
+of the fundamental frequencies
+- 8.4.3: The harmonics from a HAM are undesirable as it interferes with other frequencies
+and can potentially emit out of band
+- 8.4.4: It's important to make sure a non-tuned antenna isn't connected to an emitter
+as it'll produce parasitic emissions
+- 8.4.5: If we can hear you at 21 375kHz and you're emitting at 7125kHz, you're
+emitting hamornic signals
+- 8.4.6: A modulation that's too strong can produce splatter which makes the band
+wider than intended
+- 8.4.7: When a 15m band emission is causing interference on TV channels,
+- 8.4.8: To reduce interference generated by a SSB signal, you can simply reduce
+the microphone amplification
+- 8.4.10: A 57MHz interference can be a 10m band harmonic
+- 8.4.9: An emitter can produce too many harmonics if the attack is too strong
+between stages
+- 8.4.11: Harmonics can be produces in the power amplifier
+if the attack is too strong
+- 8.5.1: A low-pass filter allows low frequencies and blocks higher ones.
+It's typically used to reduce harmonics
+- 8.5.2: To reduce HF harmonics, you should use a low-pass filter near the RF output
+- 8.5.3: A band-pass filter blocks RF above and below it's resonating frequency
+- 8.5.4: A low-pass filter should be inserted in the transmission line
+- 8.5.5: To reduce HF harmonics, you should use a low-pass filter near the RF output
+- 8.5.6: To reduce HF harmonics from an HF emitter, the low-pass filter must
+be placed near the emitter on the transmission line
+- 8.5.7: To reduce the penetrating of a VHF signal, you can use a high-pass filter
+- 8.5.8: A band-pass filter is a filter that resonates at a very specific frequency
+- 8.5.9: A band-stop filter allows everything BUT it's specific frequency
+- 8.5.10: A high-pass filter is often use in TV antennas
+- 8.5.11: A HF low-pass filter should attenuate everything above 30MHz
 
 ## Waves, an opening to the world and measuring equipment
 
