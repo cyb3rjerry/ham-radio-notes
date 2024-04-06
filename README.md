@@ -1070,4 +1070,123 @@ be placed near the emitter on the transmission line
 
 ## Waves, an opening to the world and measuring equipment
 
-TODO
+- 5.13.10: The measure voltage, we must put the voltmeter in parallel. To
+measure amps, we must put the amperemeter in series
+- 5.13.6: An amperemeter acts like a low resistance
+- 6.8.3: For example, a 25MHz signal has a wavelength of 12m (300/25)
+- 6.8.4: Light speed is 300 000 km/s
+- 6.8.7: Light speed is 300 000 km/s
+- 6.8.11: The formula to get the wavelength is: `wavelength = 300 / f (in MHz)`
+- 7.1.1: When two UHF radios communicate close by it's typically called
+line of sight
+- 7.1.2: Compared to ground propagation, the ionospheric propagation goes
+much further
+- 7.1.3: Some waves bounce on the ionosphere to propagate
+- 7.1.5: Waves that bounce on the ionosphere are sometimes called sky waves
+- 7.1.4: In VHF and UHF, signals propagate at most as far as the horizon
+- 7.1.6: The wave (signal) that doesn't bounce on the troposphere/ionosphere is
+called ground wave.
+- 7.1.7: The typical radius during the day for HF communications is 200km
+- 7.1.8: The ground wave propagation reduces as the frequency increases
+- 7.1.9: Whenever a signal bounces on the ionosphere to propagate, it's called
+- 7.1.10: The emission and reception of HF waves typically go beyond 4000km by
+ionospheric propagation
+a ionosphere wave
+- 7.2.1: The sun ionizes the atmosphere. UV rays, more specifically, are the ones
+that create the ionosphere.
+- 7.2.2: The sun ionizes the atmosphere. UV rays, more specifically, are the ones
+that create the ionosphere.
+- 7.2.3: The D layer is the closest to the ground and is the most ionized
+- 7.2.4: The D layer reflects some very low frequencies but it's the most useless
+- 7.2.5: During the day, the F layer splits into two distinctive layers called
+F1 and F2. During the night, they merge back into the F layer. Finally, the
+D and E layers disapear at night
+- 7.2.6: The thickest the ionosphere gets is at the highest point of the day
+- 7.2.7: The thickest the ionosphere gets is at the highest point of the day
+- 7.2.8: The F2 band is the best for long distance communication
+- 7.2.9: That explains why during the day 160,80,40m bands are good for short distances
+- 7.2.10: During the day, the F layer splits into two distinctive layers called
+F1 and F2. During the night, they merge back into the F layer. Finally, the
+D and E layers disapear at night
+- 7.2.11: The E layer is between the D and F layers
+- 7.3.1: The zone between the emitter and the skip distance is called silent zone
+- 7.3.2: The F2 layer allows communication up to 4000km
+- 7.3.3: The maximal distance that the E band will reflect is 2000km
+- 7.3.4: The zone between the emitter and the skip distance is called silent zone
+- 7.3.5: During a Quebec to Europoe communication, the signal will bounce multiple
+times
+- 7.3.6:  The distance at which a signal is reflected is purely based on the
+angle at which the wave hits the ionosphere
+- 7.3.7: The distance between the emitter and the closest point that the ionosphere
+bounces too, is called the skip distance
+- 7.3.8: It's the minimal distance between the emitter and the closest point
+- 7.3.9: Skipping is because of the ionospheric refraction
+- 7.3.10:  The distance at which a signal is reflected is purely based on the
+angle at which the wave hits the ionosphere
+- 7.3.11: The height of the ionospheric layer determines the distance
+at which it'll reflect a signal
+- 7.4.1: The D layer doesn't reflect HF waves, it simply absorbs them
+- 7.4.2: The D layer is the reason why we can't hear far AM during the day
+- 7.4.3: When two or more signals combine, they tend to become weaker
+- 7.4.4: When two or more signals combine, they tend to become weaker
+- 7.4.5: On long distance, signal variations can occur
+- 7.4.6: Ionospheric thundersstorms can cause signal variations
+- 7.4.7: On VHF and UHF, the polarization is very important. It should be the same
+as the emitter
+- 7.4.10: Long distance radio tends to play with the polarization. This change can
+be because of reflection, by refraction or because of faraday rotation
+- 7.4.11: SSB is not affected by ionospheric polarization. It doesnt affect the phase
+- 7.5.1: Solar spots increase ionization
+- 7.5.2: Propagation cycles are roughly 11 years periods
+- 7.5.3: Radio emissions from the sun are called solar flux
+- 7.5.4: The solar flux is measured at a given frequency
+- 7.5.5: The sun affects ionospheric propagation
+- 7.5.6: Electromagnetic emissions and solar particles can affect HF communications
+- 7.5.7: 40 MHz is the highest usable frequency when there's a lot of sun spots
+- 7.5.9: Propagation cycles are roughly 11 years periods
+- 7.5.10: The ionosphere being able to reflect HF heavily depends on the sun
+- 7.5.11: Propagation cycles are roughly 11 years periods
+- 7.6.1: The critical frequency is the frequency at which the ionosphere
+can't reflect the signal anymore and the signal goes into space
+- 7.6.2: The maximum usable frequency heavily depends on the ionization of the sun
+- 7.6.3: The maximum usable frequency is the highest frequency that the ionosphere
+will reflect
+- 7.6.4: Under sudden ionospheric disturbances, the maximum usable frequency
+may increase
+- 7.6.5: A 10m beacon can be heard from Canada to Western Europe at 28MHz
+- 7.6.6: Frequencies are returned by the ionosphere when they are lower than the
+maximum usable frequency
+- 7.6.7: The 20m band is typically good regardless of solar activity
+- 7.6.8: A signal is above the maximum usable frequency when it's not reflected
+- 7.6.9: 80m band is typically even harder during summer days
+by the ionosphere
+- 7.6.10: The ideal operating frequency is the frequency that's just below the
+the maximum usable frequency
+- 7.6.11: Communication are harder during the day on 160m and 80m band
+- 7.7.1: Sporadic E layer can allow for short distance 80m and 40m communications
+- 7.7.2: The phenomenon of the troposphere bringing UHF and VHF communications
+much further is called tropospheric bending
+- 7.7.3: The inversion of temperature is the reason of tropospheric waves
+- 7.7.4: The waves that stay close to the ground because of refraction are called
+tropospheric waves
+- 7.7.5: Sporadic E is a phenomenon that happens most at the equator
+- 7.7.6:  Sporadic E helps make 6m band go further
+- 7.7.7: To benefit most of auroral activity, you must aim towards north
+- 7.7.8: Auroral activity happens in the E layer
+- 7.7.9: CW benefits from auroral activity
+- 7.7.10: Tropospheric propagation can lead to VHF and UHF communications up
+to 800km
+- 7.7.11: Tropospheric propagation can lead to VHF and UHF communications up
+to 800km
+- 7.8.1: Scattered mode dispersion allows us to receive weak signals in the silent
+zone
+- 7.8.2: if you hear a very weak signal that's distorted, it's probably because
+of scattered mode
+- 7.8.3: Scattered mode dispersion will typically sound hollow
+- 7.8.4: Scattered mode dispersion will typically sound hollow
+- 7.8.5: Scattered mode dispersion allows to receive signals that are weak
+- 7.8.6: Scattered mode dispersion allows to receive signals that are too far
+for ground propagation and too close for ionospheric propagation
+- 7.8.7: It can help hear signals above the maximum usable frequency
+- 7.8.9: scattered mode helps a lot with the 6m band
+- 7.8.11: scattered mode helps signals from 30mhz to 100mhz
